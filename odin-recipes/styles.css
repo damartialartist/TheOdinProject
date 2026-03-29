@@ -1,0 +1,20 @@
+.list-title{
+    text-align: center;
+    background-color: black;
+    color: white;
+    width: 400px;    
+    font-family: sans-serif;
+}
+
+.list { 
+    margin: 8px;
+}
+
+li {
+    margin: 8px 0px;
+    font-family: sans-serif;
+}
+
+a {
+    color: black;
+}
