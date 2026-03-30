@@ -30,6 +30,9 @@ body {
     padding: 0px 8px;
 }
 
+.header-text {
+    font-weight: bold;
+}
 .intro {
     display: flex;
     justify-content: space-between;
@@ -44,6 +47,10 @@ body {
 .intro button {
     width: 100px;
     height: 30px;
+    border-radius: 8px;
+    background-color: #3882F6;
+    color: white;
+    border-style: none;
 }
 
 .info {
