@@ -5,9 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissor</title>
     <script src="script.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1> Play Game in Console!</h1>
+    <div class="title">
+        <h1>Rock Paper Scissors!</h1>
+        <p>By: damartialartist</p>
+    </div>
+
+    <div class="score">
+        <div class="human">
+            <p> You </p>
+            <p> 0 </p>
+        </div>
+
+        <div class="cpu">
+            <p> CPU </p>
+            <p> 0 </p>
+        </div>
+    </div>
+
+    <div class="game-control">
+        <p> Your Selection </p>
+        <div id="button-container">
+            <button id="rock"> Rock </button>
+            <button id="paper"> Paper </button>
+            <button id="scissor"> Scissor </button>
+        </div>
+    </div>
+
+    <div class="cpu-control">
+        <p>CPU Selection</p>
+        <div class="choice-container">
+            <p>Rock</p> 
+            <p>Paper</p> 
+            <p>Scissor</p> 
+        </div>
+    </div>
     
 </body>
 </html>
